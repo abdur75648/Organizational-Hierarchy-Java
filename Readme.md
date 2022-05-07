@@ -9,6 +9,7 @@ M (non-zero) Sze of the griddle
 We want to develope a simulation system for a big and famous burger restaurant called McMahon's Burgers, which gets a lot of customers leading to long queues in billing as well as food preparation. We would like to know some statistics like average waiting time, average queue length etc., so that proper steps to improve customer convenience can be taken.
 
 ## Description
+ - The restaurant has **K** billing counters numbered 1 to K
  - Customers arrive randomly and are automatically assigned contiguous integer ids, starting from 1
  - A new customer always joins the billing queue with the smallest length at that time (If there are multiple billing queues with the same
 smallest lengths, then the lowest numbered queue of those is chosen by the customer)
@@ -16,7 +17,7 @@ smallest lengths, then the lowest numbered queue of those is chosen by the custo
 - The billing specialist on the billing counter k will take k units of time in completing the order
 - After the order is completed, the customer order is printed automatically and sent to the chef, who prepares the burgers in the sequence he receives them
 - If two orders arrive simultaneously then the chef chooses the order from the higher numbered billing queue first
-- The chef has a large griddle on which at most M burger patties can be cooked simultaneously
+- The chef has a large griddle on which at most **M** burger patties can be cooked simultaneously
 - Each burger patty gets cooked in exactly 10 units of time
 - Whenever a patty is cooked another patty can start cooking in that instant
 - Upon cooking, the burger is delivered to the customer in 1 unit of time
