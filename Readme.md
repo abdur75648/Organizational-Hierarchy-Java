@@ -1,6 +1,8 @@
 # Organizational Database Management System For Employees
 A program to store employee data and maintains the information about organization hierarchy using a tree-based data structure
 
+![image](https://user-images.githubusercontent.com/66300465/167697023-4a59ff80-182f-49e1-9da9-9f15063d9414.png)
+
 ## Goal:
 We want to maintain a database of employees in a company. We will be concerned with 2 quantities associated with each employee in the company:
  - ID of the employee (you can assume no two employees in the company have the same ID)
